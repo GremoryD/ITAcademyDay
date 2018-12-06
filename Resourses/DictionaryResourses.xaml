@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ITAcademyDay.Resourses"
+                    xmlns:sys ="clr-namespace:System;assembly=mscorlib">
+
+    <!--Menu buttons-->
+    <sys:String x:Key="r_Members">Members</sys:String>
+    <sys:String x:Key="r_Tasks">Tasks</sys:String>
+    <sys:String x:Key="r_Menegment">Menegment</sys:String>
+    <sys:String x:Key="r_DoneTasks">Finished tasks</sys:String>
+    <sys:String x:Key="r_MemberRanking">Ranking</sys:String>
+    <sys:String x:Key="r_Setings">Settings</sys:String>
+
+    <!--Add Member button-->
+    <sys:String x:Key="r_MemberName">Name</sys:String>
+    <sys:String x:Key="r_MemberRank">Rank</sys:String>
+    <sys:String x:Key="r_CreateMember">Create member</sys:String>
+    <!--Add Task button-->
+    <sys:String x:Key="r_TaskName">Task name</sys:String>
+    <sys:String x:Key="r_Dificult">Dificult</sys:String>
+    <sys:String x:Key="r_Description">Description</sys:String>
+    <sys:String x:Key="r_Executor">Executor</sys:String>
+    <sys:String x:Key="r_CreateTask">Create Task</sys:String>
+    
+    
+</ResourceDictionary>

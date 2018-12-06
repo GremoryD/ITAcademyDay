@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="ITAcademyDay.Views.AddMemberView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ITAcademyDay.Views"
+             xmlns:vm="clr-namespace:ITAcademyDay.ViewModels"
+             xmlns:data="clr-namespace:ITAcademyDay.Models"
+             x:Name="AddMemberViewName"
+             mc:Ignorable="d" Width="237.067" Height="180.675">
+    <!--<UserControl.DataContext>
+        <vm:AddMemberViewModel></vm:AddMemberViewModel>
+    </UserControl.DataContext>-->
+    <Grid Background="#FF252526">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="{StaticResource r_MemberName}" Margin="10,52,10,0" VerticalAlignment="Top"  HorizontalContentAlignment="Right" Foreground="White"/>
+        <TextBox Height="23" Margin="9.8,56,10.2,0" TextWrapping="Wrap" VerticalAlignment="Top"  Grid.Column="1" Text="{Binding MemberName,UpdateSourceTrigger=PropertyChanged}"/>
+        <Label Content="{StaticResource r_MemberRank}" Margin="10,83,10.2,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Foreground="White"/>
+        <TextBox Height="23" Margin="9.8,83,10.2,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Text="{Binding MemberRank,UpdateSourceTrigger=PropertyChanged}"/>
+        <Button Content="{StaticResource r_CreateMember}" Grid.Column="1" Margin="9.8,0,9.8,10.2" VerticalAlignment="Bottom" Command="{Binding AddMemberCommand}"
+                CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"/>
+
+    </Grid>
+</UserControl>

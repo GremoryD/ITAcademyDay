@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="ITAcademyDay.Views.DifficultIndicatorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ITAcademyDay.Views"
+             mc:Ignorable="d" d:DesignWidth="250" Height="32.6">
+    <Grid>
+        <StackPanel HorizontalAlignment="Right" Grid.Column="1" Orientation="Horizontal" Margin="0,0,15,0" >
+            <Grid>
+                <Ellipse x:Name="DigicultLVL1"  Width="20"  Height="20"  Canvas.Left="60" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+                <Ellipse x:Name="DigicultLVL2"  Width="20" Height="20" Canvas.Left="100" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="10,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+            </Grid>
+            <Grid>
+                <Ellipse x:Name="DigicultLVL3"  Width="20"  Height="20"  Canvas.Left="60" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+                <Ellipse x:Name="DigicultLVL4"  Width="20" Height="20" Canvas.Left="100" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="10,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+            </Grid>
+            <Grid>
+                <Ellipse x:Name="DigicultLVL5"  Width="20"  Height="20"  Canvas.Left="60" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+                <Ellipse x:Name="DigicultLVL6"  Width="20" Height="20" Canvas.Left="100" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="10,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+            </Grid>
+            <Grid>
+                <Ellipse x:Name="DigicultLVL7"  Width="20"  Height="20"  Canvas.Left="60" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+                <Ellipse x:Name="DigicultLVL8"  Width="20" Height="20" Canvas.Left="100" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="10,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+            </Grid>
+            <Grid>
+                <Ellipse x:Name="DigicultLVL9"  Width="20"  Height="20"  Canvas.Left="60" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+                <Ellipse x:Name="DigicultLVL10"  Width="20" Height="20" Canvas.Left="100" Canvas.Top="0" Stretch="Fill"  Stroke="Black"  Fill="Red">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="10,0,10,20"/>
+                    </Ellipse.Clip>
+                </Ellipse>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

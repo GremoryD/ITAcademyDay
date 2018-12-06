@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:ITAcademyDay.ViewModels"
+                    xmlns:v="clr-namespace:ITAcademyDay.Views"
+                    xmlns:local="clr-namespace:ITAcademyDay.Resourses">
+    <DataTemplate DataType="{x:Type vm:TasksPanelViewModels}">
+        <v:TasksPanelView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:MembersPanelViewModels}">
+        <v:MembersPanelView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:AddTaskViewModel}">
+        <v:AddTaskView />
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type vm:AddMemberViewModel}">
+        <v:AddMemberView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:DifficultIndicatorViewModel}">
+        <v:DifficultIndicatorView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ManagementPanelViewModel}">
+        <v:ManagementPanelView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:InitViewModel}">
+        <v:InitView />
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type vm:FinishedTaskViewModel}">
+        <v:FinishedTasksView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:RankingViewModel}">
+        <v:RankingView />
+    </DataTemplate>
+</ResourceDictionary>
